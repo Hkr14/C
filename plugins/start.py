@@ -19,7 +19,7 @@ from pyrogram.types import (
 
 REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-    InlineKeyboardButton('📒 MY ACCOUNT 📒', callback_data='myacc'),
+    InlineKeyboardButton('📒 MI CUENTA 📒', callback_data='info'),
     InlineKeyboardButton('🚪 GATES 🚪', callback_data='gates')
     ],
     [
@@ -35,10 +35,10 @@ async def start(Client, message):
     day = make_ordinal(datetime.now().strftime("%d"))
     caption = f"""
 <b>{get_part_of_day()} <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>[<code>{message.from_user.id}</code>],
-How Are You?
-I Am Jocasta. The Multi Functional Bot For You.
-Today Is {day} Of {dt_string}.
-Check And Click Down For More</b>    
+Hola Mi Nombre Es RaceXtChkBot
+
+Hoy es {day} De {dt_string}.
+Verifique y haga clic hacia abajo para obtener más información</b>    
 """
     await Client.send_message(chat_id=message.chat.id,text=caption,disable_web_page_preview=True,reply_to_message_id=message.message_id,reply_markup=REPLY_MARKUP)
     # try: 
