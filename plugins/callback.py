@@ -247,8 +247,8 @@ async def extra(Client, message , update):
 async def buy(Client, message , update):
   buttons = [
     [
-        InlineKeyboardButton('🛒 BUY 🛒', url='https://t.me/r0ld3x'),
-        InlineKeyboardButton('ℹ CHANNEL ℹ', url='https://t.me/roldexverse')
+        InlineKeyboardButton('🛒 BUY 🛒', url='https://t.me/Sarcehkr'),
+        InlineKeyboardButton('ℹ CHANNEL ℹ', url='https://t.me/RaceXtChk')
     ],
     [
         InlineKeyboardButton('↩️ RETURN ↩️', callback_data='gates'),
@@ -276,8 +276,8 @@ async def buy(Client, message , update):
 async def gen(Client, message , update):
   buttons = [
     [
-        InlineKeyboardButton('🛒 BUY 🛒', url='https://t.me/r0ld3x'),
-        InlineKeyboardButton('ℹ CHANNEL ℹ', url='https://t.me/roldexverse')
+        InlineKeyboardButton('🛒 BUY 🛒', url='https://t.me/Sarcehkr'),
+        InlineKeyboardButton('ℹ CHANNEL ℹ', url='https://t.me/RaceXtChk')
     ],
     [
         InlineKeyboardButton('↩️ RETURN ↩️', callback_data='gates'),
