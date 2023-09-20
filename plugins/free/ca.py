@@ -27,9 +27,9 @@ async def ca(Client, message):
     try:
         started_time = time.time()
         banned_bins = open('files/bannedbin.txt', 'r').readlines()
-        verified_gps = open('files/groups.txt', 'r').readlines()        
-        if (str(message.chat.id) + "\n" not in verified_gps and message.chat.type != "private"):
-            await message.reply_text(text= group_not_allowed,reply_to_message_id=message.message_id)
+        #verified_gps = open('files/groups.txt', 'r').readlines()        
+       # if (str(message.chat.id) + "\n" not in verified_gps and message.chat.type != "private"):
+          #  await message.reply_text(text= group_not_allowed,reply_to_message_id=message.message_id)
         else:
             text = f"""
 <b>〄</b> GATE: <b>STRIPE FREE [1]</b>
